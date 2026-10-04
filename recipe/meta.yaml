@@ -9,7 +9,7 @@ source:
   sha256: e1e1d6073144d2c8fba9d6df12f56ef92a65245db25e24c28b6abefa9bc65154
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not (linux and py36)]
   script: {{ PYTHON }} -m pip install --no-deps -vv --ignore-installed ./pymesh2-{{ version }}-cp36-cp36m-linux_x86_64.whl
 
